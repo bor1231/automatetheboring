@@ -22,7 +22,7 @@ plt.plot(df["Time (s)"], df["Value1"], label="Cold Side", color="blue")
 plt.plot(df["Time (s)"], df["Value2"], label="Environment", color="green")
 plt.plot(df["Time (s)"], df["Value3"], label="Hot Side", color="red")
 
-plt.title("Yellow_HS_with room AC_ON")
+plt.title("12710_firm_clamp_vx_4.5V_2.5A")
 plt.xlabel("Time (s)")
 plt.ylabel("Temperature (°C)")
 plt.legend()

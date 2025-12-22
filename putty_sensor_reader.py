@@ -6,7 +6,7 @@ os.chdir(target_path)
 print('Current working direcory is: '+ os.getcwd())
 
 # Load and parse the data with correct encoding
-with open("peltier_clamped_yellow_heatsink_3.txt", "r", encoding="utf-8", errors="ignore") as file:
+with open("peltier_test_esp32-c3_timely_steps_12710_firm_clamp_vx.txt", "r", encoding="utf-8", errors="ignore") as file:
     lines = file.readlines()[1:]  # Skip the first row
 
 # Prepare structured data
